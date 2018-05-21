@@ -1,5 +1,5 @@
 # YOLOv3-tiny-custom-object-detection
-As I continued exploring YOLO object detection, I found that for starters to train their own custom object detection project, it is ideal to use a YOLOv3-tiny architecture since the network is relative slow and suitable for small/middle size datasets
+As I continued exploring YOLO object detection, I found that for starters to train their own custom object detection project, it is ideal to use a YOLOv3-tiny architecture since the network is relative shallow and suitable for small/middle size datasets
 
 
 # Environment:
@@ -71,7 +71,7 @@ data/img/n02834778_1380.jpg
 
 # Step 8:
 In Darknet file, there is a cfg file. Creat your own YOLOv3-tiny.cfg in that file. 
-
+I have posted a sample "YOLOv3-tiny6.cfg" file which I used to train my model. 
 
 
 
