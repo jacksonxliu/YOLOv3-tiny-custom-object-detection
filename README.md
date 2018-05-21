@@ -42,18 +42,18 @@ I have uploaded a sample obj.names file in this post.
 # Step 6:
 Create a "train.txt" file which including the directory and the names of your labeled images for training:
 
-data/img/n02834778_12542.jpg
-data/img/n02834778_12545.jpg
-data/img/n02834778_12553.jpg
-data/img/n02834778_1255.jpg
-data/img/n02834778_12592.jpg
-data/img/n02834778_12604.jpg
-data/img/n02834778_12605.jpg
-data/img/n02834778_12643.jpg
-data/img/n02834778_12654.jpg
-data/img/n02834778_12655.jpg
-data/img/n02834778_12658.jpg
-data/img/n02834778_12673.jpg
+data/img/n02834778_12542.jpg\
+data/img/n02834778_12545.jpg\
+data/img/n02834778_12553.jpg\
+data/img/n02834778_1255.jpg\
+data/img/n02834778_12592.jpg\
+data/img/n02834778_12604.jpg\
+data/img/n02834778_12605.jpg\
+data/img/n02834778_12643.jpg\
+data/img/n02834778_12654.jpg\
+data/img/n02834778_12655.jpg\
+data/img/n02834778_12658.jpg\
+data/img/n02834778_12673.jpg\
 
 
 # Step 7:
