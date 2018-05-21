@@ -3,8 +3,8 @@ As I continued exploring YOLO object detection, I found that for starters to tra
 
 
 # Environment:
-Ubuntu 16.04
-CUDA 9.0
+Ubuntu 16.04\
+CUDA 9.0\
 GPU: Geforce GTX 1080
 
 # Great sources:
@@ -53,7 +53,7 @@ data/img/n02834778_12643.jpg\
 data/img/n02834778_12654.jpg\
 data/img/n02834778_12655.jpg\
 data/img/n02834778_12658.jpg\
-data/img/n02834778_12673.jpg\
+data/img/n02834778_12673.jpg
 
 
 # Step 7:
@@ -61,12 +61,17 @@ data/img/n02834778_12673.jpg\
 Create a "test.txt" file which including the directory and the names of your labeled images for testing, remember do not test on the same images which used for training already. 
 
 
-data/img/n02834778_1313.jpg
-data/img/n02834778_1325.jpg
-data/img/n02834778_1339.jpg
-data/img/n02834778_1362.jpg
-data/img/n02834778_1365.jpg
-data/img/n02834778_1372.jpg
+data/img/n02834778_1313.jpg\
+data/img/n02834778_1325.jpg\
+data/img/n02834778_1339.jpg\
+data/img/n02834778_1362.jpg\
+data/img/n02834778_1365.jpg\
+data/img/n02834778_1372.jpg\
 data/img/n02834778_1380.jpg
+
+# Step 8:
+In Darknet file, there is a cfg file. Creat your own YOLOv3-tiny.cfg in that file. 
+
+
 
 
