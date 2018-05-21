@@ -19,7 +19,9 @@ https://github.com/AlexeyAB/Yolo_mark
 # Step 2:
 Compiling with CUDA and OpenCV, here is the instruction: https://pjreddie.com/darknet/install/#cuda 
 Make sure your can run before training your own dataset 
+
 ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights
+
 ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights <video file>
         
 # Step 3:
@@ -29,6 +31,7 @@ Remember, dataset is very crucial for deep learning and your model's performance
 
 # Step 4:
 Copy all your prepared images and their corresponding .txt files to the directroy in your Darknet file:
+
 ./home/Darknet/data/img
 
 # Step 5:
