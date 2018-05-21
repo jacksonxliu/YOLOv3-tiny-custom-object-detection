@@ -8,7 +8,9 @@ CUDA 9.0
 GPU: Geforce GTX 1080
 
 # Great sources:
+
 https://github.com/AlexeyAB/darknet 
+
 https://github.com/AlexeyAB/Yolo_mark 
 
 # Step 1:
