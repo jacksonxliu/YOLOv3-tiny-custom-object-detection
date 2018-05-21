@@ -18,7 +18,7 @@ https://github.com/AlexeyAB/Yolo_mark
  
 # Step 2:
 Compiling with CUDA and OpenCV, here is the instruction: https://pjreddie.com/darknet/install/#cuda 
-Make sure your can run before training your own dataset 
+Make sure your can run those commands before training your own dataset 
 
 ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights
 
@@ -39,5 +39,34 @@ In Step 3, you should have created a txt file called : obj.names.
 Since I trained on 6 objects, I named my file as obj6.names and they are: babybuggy, bicycle, fire_engine, motor_cycle, scooter, moter_scooter. 
 I have uploaded a sample obj.names file in this post. 
 
+# Step 6:
+Create a "train.txt" file which including the directory and the names of your labeled images for training:
+
+data/img/n02834778_12542.jpg
+data/img/n02834778_12545.jpg
+data/img/n02834778_12553.jpg
+data/img/n02834778_1255.jpg
+data/img/n02834778_12592.jpg
+data/img/n02834778_12604.jpg
+data/img/n02834778_12605.jpg
+data/img/n02834778_12643.jpg
+data/img/n02834778_12654.jpg
+data/img/n02834778_12655.jpg
+data/img/n02834778_12658.jpg
+data/img/n02834778_12673.jpg
+
+
+# Step 7:
+
+Create a "test.txt" file which including the directory and the names of your labeled images for testing, remember do not test on the same images which used for training already. 
+
+
+data/img/n02834778_1313.jpg
+data/img/n02834778_1325.jpg
+data/img/n02834778_1339.jpg
+data/img/n02834778_1362.jpg
+data/img/n02834778_1365.jpg
+data/img/n02834778_1372.jpg
+data/img/n02834778_1380.jpg
 
 
