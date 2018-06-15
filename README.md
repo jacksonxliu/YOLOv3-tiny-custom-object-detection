@@ -4,12 +4,12 @@ As I continued exploring YOLO object detection, I found that for starters to tra
 
 # Environment:
 OS: Ubuntu 16.04\
-UDA 9.0 \
-cuDNN 7.0 \
-Tensorflow 1.8.0 \
-OpenCV 3.3.0 \
+UDA 9.0\
+cuDNN 7.0\
+Tensorflow 1.8.0\
+OpenCV 3.3.0\
 
-GPU:Nvidia Geforce GTX 1080 \
+GPU:Nvidia Geforce GTX 1080\
 
 
 # Great sources:
