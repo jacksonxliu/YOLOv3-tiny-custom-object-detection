@@ -77,5 +77,11 @@ I have posted a sample "YOLOv3-tiny6.cfg" file which I used to train my model.
 # Step 9:
 You can download a pretrained weight from: http://pjreddie.com/media/files/darknet53.conv.74 
 
+# Step 10:
+Now you can start your training by typing: ./darknet detector train data/obj6.data yolov3-tiny6.cfg darknet53.conv.74 \
+The trained weights will be saved at your ../darknet/backup
 
+# Step 10:
+After you monitored the training for maybe 10,000 iterations, you can stop training and test out your model by typing:\
+./darknet detector test data/obj6.data yolov3-tiny6.cfg backup/yolov3-tiny6_10000.weights data/test/babybuggy.jpg
 
