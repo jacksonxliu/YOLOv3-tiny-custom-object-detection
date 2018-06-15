@@ -74,4 +74,8 @@ In Darknet file, there is a cfg file. Creat your own YOLOv3-tiny.cfg in that fil
 I have posted a sample "YOLOv3-tiny6.cfg" file which I used to train my model. 
 
 
+# Step 9:
+You can download a pretrained weight from: http://pjreddie.com/media/files/darknet53.conv.74 
+
+
 
